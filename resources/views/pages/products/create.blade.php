@@ -99,19 +99,6 @@
                                     </div>
                                 @enderror
                             </div>
-                            {{-- <div class="form-group">
-                                <label>Stock</label>
-                                <input type="number"
-                                    class="form-control @error('stock')
-                                is-invalid
-                            @enderror"
-                                    name="stock">
-                                @error('stock')
-                                    <div class="invalid-feedback">
-                                        {{ $message }}
-                                    </div>
-                                @enderror
-                            </div> --}}
                             <div class="form-group">
                                 <label class="form-label">Category</label>
                                 <div class="selectgroup w-100">
